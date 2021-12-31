@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>circular progress bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle_box">
+        <div class="box">
+          <div class="skill">
+            <svg>
+              <circle cx="100" cy="100" r="80"></circle>
+              <circle
+                class="progress"
+                cx="100"
+                cy="100"
+                r="80"
+                data-value="95"
+                data-stroke="#6d67e4"
+              ></circle>
+            </svg>
+            <span class="data-progress" data-value="95"></span>
+          </div>
+          <strong>Html5</strong>
+        </div>
+        <div class="box">
+          <div class="skill">
+            <svg>
+              <circle cx="100" cy="100" r="80"></circle>
+              <circle
+                class="progress"
+                cx="100"
+                cy="100"
+                r="80"
+                data-value="95"
+                data-stroke="#0099ff"
+              ></circle>
+            </svg>
+            <span class="data-progress" data-value="95"></span>
+          </div>
+          <strong>Html5</strong>
+        </div>
+        <div class="box">
+          <div class="skill">
+            <svg>
+              <circle cx="100" cy="100" r="80"></circle>
+              <circle
+                class="progress"
+                cx="100"
+                cy="100"
+                r="80"
+                data-value="80"
+                data-stroke="#d1ca25"
+              ></circle>
+            </svg>
+            <span class="data-progress" data-value="80"></span>
+          </div>
+          <strong>Javascript</strong>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
