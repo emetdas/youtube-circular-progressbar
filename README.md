@@ -2,7 +2,7 @@
 
 ----------
 
-[video-link]()
+[video-link](https://youtu.be/1UpcB9QSZT8)
 
 ----------
 
@@ -59,7 +59,7 @@
             </svg>
             <span class="data-progress" data-value="95"></span>
           </div>
-          <strong>Html5</strong>
+          <strong>Css3</strong>
         </div>
         <div class="box">
           <div class="skill">
